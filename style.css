@@ -1,0 +1,201 @@
+body {
+    background: linear-gradient(to right, #ff0000 0%, #000000 50%, #0000ff 100%);
+    color: white;
+    font-family: sans-serif;
+}
+
+.titolo {
+    text-align: center;
+    margin: 30px;
+}
+
+
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.Abase1 {
+    margin: 30px auto;
+    border: solid 2px white;
+    border-radius: 15px;
+    padding: 30px;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    box-shadow: 0px 0px 20px 10px white;
+    transition: 0.3s;
+}
+
+.Bbase2 {
+    margin: 30px auto;
+    border: solid 2px white;
+    border-radius: 15px;
+    padding: 30px;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    box-shadow: 0px 0px 20px 10px white;
+    transition: 0.3s;
+}
+
+.Cbase3 {
+    margin: 30px auto;
+    border: solid 2px white;
+    border-radius: 15px;
+    padding: 30px;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    box-shadow: 0px 0px 20px 10px white;
+    transition: 0.3s;
+}
+
+.Abase1:hover{
+   background-color: #c50000;
+   padding: 40px 40px 40px;
+
+   .prezzo h1 {
+        font-size: 90px;
+    }
+
+    .prezzo h2 {
+        font-size: 60px;
+        padding-top: 30px;
+    }
+
+}
+
+.Bbase2:hover{
+    background-color: #0f0f0f;
+    padding: 40px 40px 40px;
+
+    .prezzo h1 {
+        font-size: 90px;
+    }
+
+    .prezzo h2 {
+        font-size: 60px;
+        padding-top: 30px;
+    }
+}
+
+
+.Cbase3:hover{
+    background-color: #00009c;
+    padding: 40px 40px 40px;
+
+    .prezzo h1 {
+        font-size: 90px;
+    }
+
+    .prezzo h2 {
+        font-size: 60px;
+        padding-top: 30px;
+    }
+}
+
+
+
+.prezzo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.prezzo h1 {
+    font-size: 60px;
+}
+
+.prezzo h2 {
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+#spunta::before {
+    padding-left: 20px;
+    padding-right: 10px;
+    content: '\2713';
+}
+
+#X::before {
+    padding-left: 20px;
+    padding-right: 10px;
+    content: '\2717';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    margin: 25px;
+    padding: 15px;
+    border: solid 2px white;
+    border-radius: 20px;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 20px 10px white;
+}
+
+@media screen and (max-width:1300px) {
+    .Abase1{
+        margin-right: 50px;
+    }
+
+    .Bbase2{
+        margin-right: 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 800px) {
+    section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Abase1{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .Bbase2{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .Cbase3{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .prezzo h1 {
+        font-size: 50px;
+    }
+
+    .prezzo h2 {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .button {
+        margin: 15px;
+    }
+}
